@@ -1,0 +1,13 @@
+/* nav responsive */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .nav-page {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
