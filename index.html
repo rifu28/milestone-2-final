@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="shortcut icon" href="https://i.pinimg.com/736x/d4/3a/67/d43a679bfd181fc1b90dd38dcafdc7c9.jpg"
         type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,19 +28,31 @@
                 <a href="">Blog</a>
                 <a href="">Contact</a>
             </div>
+            <div style="display: none;" class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <section class="banner">
-            <div>
+            <div class="banner-text">
                 <h1>Explore Your Travel</h1>
                 <p>There are lot of interesting place in the world that you should visit.Those place are very wonderful.
                 </p>
             </div>
-            <div>
-                <p>Where</p>
-                <p>When</p>
-                <p>Select Type</p>
-                <p>Find Now</p>
+            <div class="four">
+                <p class="banner-item">Where</p>
+                <div class="banner-item">
+                    <p>When</p>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <div class="banner-item">
+                    <p>Select Type</p>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
 
+                <div style="background-color: #FF5400; color: #FFF;" class="banner-item">
+                    <i class="fas fa-search"></i>
+                    <p>Find Now</p>
+                </div>
             </div>
         </section>
     </header>

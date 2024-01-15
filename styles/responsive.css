@@ -1,13 +1,53 @@
-/* nav responsive */
 @media screen and (max-width:576px) {
+
+    /* nav responsive */
     nav {
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
         margin: 20px auto;
     }
 
     .nav-page {
+        display: none;
+    }
+
+    .menu {
+        display: inline !important;
+        margin-right: 10px;
+    }
+
+    /* banner responsive */
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-text {
+        padding-top: 40px;
+    }
+
+    .banner-text h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .banner-text p {
+        width: 80%;
+    }
+
+    .four {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 70%;
+        margin-top: 25px;
+    }
+
+    .banner-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-item p {
+        text-align: start;
     }
 }
