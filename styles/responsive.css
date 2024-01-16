@@ -232,4 +232,55 @@
         gap: 20px;
         flex-direction: column;
     }
+
+    /* input field responsive */
+
+    .input-field {
+        flex-direction: column;
+    }
+
+    .input-text {
+        width: 300px;
+        height: 353px;
+
+    }
+
+    .news-h1 {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .input-text p {
+        width: 220px;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .name-input,
+    .email-input {
+        width: 128px;
+        height: 52px;
+        margin-left: 30px;
+    }
+
+    .input-text button {
+        width: 150px;
+        height: 52px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .last-img {
+        width: 345px;
+        height: 300px;
+    }
+
+    .save-money {
+        width: 180px;
+        position: relative;
+        bottom: 200px;
+        left: 80px;
+        transform: rotate(-20deg);
+    }
 }
