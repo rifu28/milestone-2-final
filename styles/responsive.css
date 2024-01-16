@@ -283,4 +283,28 @@
         left: 80px;
         transform: rotate(-20deg);
     }
+
+    /* footer responsive */
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-icon img {
+        width: 28px;
+        height: 33px;
+    }
+
+    .footer-icon h2 {
+        font-size: 20px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .last-line {
+        font-size: 13px;
+    }
 }
