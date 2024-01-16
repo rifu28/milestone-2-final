@@ -1,6 +1,11 @@
 @media screen and (max-width:576px) {
 
     /* nav responsive */
+    main {
+        /* max-width: 575px; */
+        margin: 0px auto;
+    }
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -47,7 +52,184 @@
         margin-right: auto;
     }
 
-    .banner-item p {
-        text-align: start;
+    /* main section responsive */
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-section h1 {
+        font-size: 20px;
+    }
+
+    .main-section p {
+        width: 330px;
+    }
+
+    .main-pic img {
+        width: 335px;
+        height: 342px;
+        margin: 30px auto;
+    }
+
+    /* places responsive */
+
+    .places {
+        margin: 30px auto;
+    }
+
+    .maldives {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .indo {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .sri {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .north {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .kashmir {
+        width: 335px;
+        height: 176px;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .bangla {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .bandor {
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .places div>h1 {
+        font-size: 20px;
+    }
+
+    .places div>h2 {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    /* location responsive */
+
+    .hotel-text {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .hotel-p {
+        width: 309px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .hotel-bg {
+        width: 280px;
+        height: 175px;
+        margin: 0 auto;
+    }
+
+    .hotel-bg h1 {
+        font-size: 18px;
+    }
+
+    .hotel-bg p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .map-text {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .map-p {
+        width: 309px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .map-bg {
+        width: 280px;
+        height: 175px;
+        margin: 0 auto;
+    }
+
+    .map-bg h1 {
+        font-size: 18px;
+    }
+
+    .map-bg p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .price-text {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .price-p {
+        width: 309px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .price-bg {
+        width: 280px;
+        height: 175px;
+        margin-top: 20px;
+    }
+
+    .price-bg h1 {
+        font-size: 18px;
+    }
+
+    .price-bg p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .up2 {
+        margin: 0px auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+        flex-direction: column;
     }
 }
