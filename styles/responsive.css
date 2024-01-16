@@ -307,4 +307,25 @@
     .last-line {
         font-size: 13px;
     }
+
+    .video-part {
+        flex-direction: column;
+    }
+
+    .yt-video {
+        width: 345px;
+        height: 300px;
+        border-radius: 13px;
+    }
+
+    .video-text h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .video-part p {
+        font-size: 14px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
 }

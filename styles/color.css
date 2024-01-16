@@ -450,3 +450,33 @@ footer {
     font-weight: 300;
     text-align: center;
 }
+
+.video-part {
+    border-radius: 14px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yt-video {
+    border-radius: 20px;
+}
+
+.video-text {
+    text-align: center;
+}
+
+.video-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.video-part p {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 300;
+    width: 500px;
+}
